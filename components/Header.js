@@ -19,7 +19,7 @@ const styles = {
     header: {
         padding: 10 ,
         alignItems : 'center',
-        backgroundcolor : 'FFFF66',
+        backgroundColor : 'FFFF66',
     },
     text : {
         fontSize : 20 ,
