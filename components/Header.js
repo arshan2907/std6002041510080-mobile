@@ -18,7 +18,8 @@ class Header extends Component {
 const styles = {
     header: {
         padding: 10 ,
-        alignItems : 'center'
+        alignItems : 'center',
+        backgroundcolor : 'FFFF66',
     },
     text : {
         fontSize : 20 ,
