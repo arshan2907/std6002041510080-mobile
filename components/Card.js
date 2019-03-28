@@ -6,7 +6,7 @@ class Card extends Component {
     render() {
         return (
             <View>
-            <View style={{ flexDirection: "row"}}>
+            <View style={{ flexDirection: "row", marginTop: 10}}>
                 <Image 
                         style={{ width:100, height:100, marginTop: 10 }}
                         source={{ uri: 'https://images.unsplash.com/photo-1473966968600-fa801b869a1a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80' }} 
