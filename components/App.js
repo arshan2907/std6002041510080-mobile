@@ -3,15 +3,16 @@
  import {View , Text} from 'react-native';
  import Header from './Header'
  import Card from './Card'
+ import Login from './Login';
+ 
  
  // create component
 class App extends React.Component {
     render() {
         return (
             <View>
-                <Header title="Albums" />
-                <Text></Text>
-                <Card />
+                <Header title="Login" />
+                <Login />
             </View>
         );
     }
@@ -19,3 +20,4 @@ class App extends React.Component {
 
 // export
 export default App;
+
